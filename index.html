@@ -21,70 +21,82 @@
 
   <!-- Place this tag in your head or just before your close body tag. -->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
-  
+
   <style type="text/css">
+    .card-img-top {
+      width: 100%;
+    }
+    
+    .card {
+      margin-top: 5px;
+    }
+    
     #footer {
       background-color: gainsboro;
     }
-  
   </style>
 </head>
 
 <body>
   <div class="container col-sm-10">
- <img src="DamianDemasiProfile.jpg" class="rounded-circle" alt="Cinque Terre" height="300" style="float:left;margin:20px;"> 
- </div>
+    <img src="DamianDemasiProfile.jpg" class="rounded-circle" alt="Cinque Terre" height="300" style="float:left;margin:20px;">
+  </div>
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
-     
+
       <h1 class="display-3">Damian Demasi</h1>
       <p class="lead">This is my personal site and portfolio. feel free to explore it!</p>
     </div>
   </div>
 
 
-  <div class="container col-sm-10">
 
-    <div class="row">
-      <div class="col-sm-3">
-        <div class="card">
-          <h3 class="card-header">Landing page</h3>
-          <div class="card-block">
-            <h4 class="card-title">A simple Boostrap landing page</h4>
+  <div class="container col-sm-10">
+    <div class="card-deck">
+      <div class="card">
+        <h3 class="card-header">Landing page</h3>
+        <img class="card-img-top" src="project-parallax.jpg" alt="Card image cap">
+        <div class="card-block">
+          <h3 class="card-title">A simple Boostrap landing page</h4>
             <p class="card-text">Check out a simple landing page with a "parallax" effect on it's header.</p>
-            <!--    <a href="projects/bootstrap-project-landingpage.html" class="btn btn-primary">Take me there!</a>-->
+            <p class="card-text"><small class="text-muted">April 2017</small></p>
             <a class="btn btn-primary btn-lg" href="projects/bootstrap-project-landingpage.html" role="button">Take me there!</a>
-          </div>
         </div>
       </div>
-      <div class="col-sm-3">
-        <div class="card">
-          <h3 class="card-header">Another project</h3>
-          <div class="card-block">
-            <h4 class="card-title">Coming soon...</h4>
+      <div class="card">
+        <h3 class="card-header">Not yet...</h3>
+        <img class="card-img-top" src="not-yet.jpg" alt="Card image cap">
+        <div class="card-block">
+          <h3 class="card-title">Coming soon...</h4>
             <p class="card-text">Coming soon...</p>
+            <p class="card-text"><small class="text-muted">Coming soon...</small></p>
             <button type="button" class="btn btn-primary btn-lg" disabled href="#">Take me there!</button>
-          </div>
         </div>
       </div>
-      <div class="col-sm-3">
-        <div class="card">
-          <h3 class="card-header">Another project</h3>
-          <div class="card-block">
-            <h4 class="card-title">Coming soon...</h4>
+
+      <div class="card">
+        <h3 class="card-header">Not yet...</h3>
+        <img class="card-img-top" src="not-yet.jpg" alt="Card image cap">
+        <div class="card-block">
+          <h3 class="card-title">Coming soon...</h4>
             <p class="card-text">Coming soon...</p>
+            <p class="card-text"><small class="text-muted">Coming soon...</small></p>
             <button type="button" class="btn btn-primary btn-lg" disabled href="#">Take me there!</button>
-          </div>
         </div>
       </div>
     </div>
   </div>
-    <div class="container-fluid" style="margin:30px;padding:30px;" id="footer">
+
+
+
+  <div class="container-fluid" style="margin:30px;padding:30px;" id="footer">
 
     <!-- Place this tag where you want the button to render. -->
     <a class="github-button" href="https://github.com/darthcolo" data-style="mega" data-count-href="/darthcolo/followers" data-count-api="/users/darthcolo#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @darthcolo on GitHub">Follow @darthcolo</a>
+    
+    <p><a class="btn btn-primary btn-sm" href="mailto:contact@damiandemasi.com" role="button">Email me!</a></p>
 
-</div>
+  </div>
 </body>
 
 </html>
